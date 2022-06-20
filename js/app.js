@@ -16,6 +16,10 @@ inputsubm.addEventListener('click', (e) => {
     tImputEl.type = 'text';
     tImputEl.value = task;
     tImputEl.setAttribute('readonly', 'readonly')
-
     
+    const edit = document.createElement('botton');
+    inputCh.appendChild(edit);
+    edit.innerHTML = 'Editar'
+    
+    inputTex.value="";
 })
